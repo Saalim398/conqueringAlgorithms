@@ -6,7 +6,6 @@ def quick_sort(arr):
     pivot_index = 1
     pivot = arr[pivot_index]
     rest = arr[:pivot_index] + arr[pivot_index+1:]
-
     less = [x for x in rest if x <= pivot]
     greater = [x for x in rest if x > pivot]
 
