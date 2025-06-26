@@ -1,0 +1,1 @@
+g = {k: list(map(str, v)) for k, v in g.items()}
